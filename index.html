@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>自己紹介 | サイト運営者</title>
+    <title>Ruby初心者のポートフォリオ</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -19,6 +19,40 @@
         background-size: cover;
         color: #fff;
       }
+      
+      .panel {
+        margin-bottom: 20px;
+        background-color: #D1D1D1;
+        border: none;
+        border-radius: 0;
+      }
+      
+      .panel-body {
+        text-align: center;
+        height: 180px;
+        padding-top: 90px;
+        color: #888;
+        font-size: 18px;
+      }
+      
+      .panel-footer {
+        text-align: center;
+        padding: 18px 15px;
+        background-color: #7E7E7E;
+        border-top: none;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      footer {
+       text-align: center;
+       padding: 10px;
+       background: #101010;
+      }
+      
     </style>
   </head>
   <body>
@@ -44,17 +78,52 @@
         </ul>
       </div>
     </nav>
-
     <header class="jumbotron">
       <div class="container">
         <h1>My Portfolio</h1>
+        <p>Ruby on rails超初心者のポートフォリオページです</p>
       </div>
     </header>
     <div class="container-fluid">
       <div class="row">
-      <div class="col-sm-6">制作物1</div>
-      <div class="col-sm-6">制作物2</div>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">制作物画像</div>
+            <div class="panel-footer">制作物名</div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">制作物画像</div>
+            <div class="panel-footer">制作物名</div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">制作物画像</div>
+            <div class="panel-footer">制作物名</div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-body">制作物画像</div>
+            <div class="panel-footer">制作物名</div>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="container">
+      <table class="table-hover">
+        <tbody>
+          <tr>
+            <th>Githubアカウント</th>
+            <td>https://github.com/hitoshikawamura</td>
+          </tr>
+        <tbody>
+      </table>
+    </div>
+    <footer class="container-fluid">
+      <small><a href="/">Copyright (C) Ruby Beginner All Rights Reserved.</a></small>
+    </footer>
   </body>
 </html>
